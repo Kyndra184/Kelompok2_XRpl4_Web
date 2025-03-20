@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kelompok 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: #f9f5f2;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      .team-container {
+        padding: 50px 0;
+      }
+      .team-title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+      }
+      .member-card {
+        background: #fff;
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        position: relative;
+      }
+      .member-card img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .member-info {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+      }
+      .member-name {
+        font-size: 1rem;
+        font-weight: bold;
+        flex-grow: 1;
+        text-align: left;
+        margin-bottom: 2px; /* Mengurangi jarak antara nama dan peran */
+      }
+      .member-badge {
+        background: #6a00ff;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 0.9rem;
+      }
+      .member-role {
+        font-size: 0.9rem;
+        color: gray;
+        margin-bottom: 5px; /* Mengurangi jarak antara peran dan elemen di bawahnya */
+      }
+    </style>
+  </head>
+
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Biografi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#aboutus">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br /><br /><br />
+
+    <div class="container team-container">
+      <h1 class="team-title">KELOMPOK 2</h1>
+      <div class="row g-4 justify-content-center">
+        <!-- Member 1 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="member-card">
+            <img src="adrienne.JPG" alt="Adrienne" />
+            <div class="member-info">
+              <p class="member-name">Adrienne Alonso Rodriguez</p>
+              <span class="member-badge">02</span>
+            </div>
+            <p class="member-role">DESAIN WEBSITE</p>
+          </div>
+        </div>
+
+        <!-- Member 2 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="member-card">
+            <img src="grace.jpeg" alt="Grace" />
+            <div class="member-info">
+              <p class="member-name">I Gede Grace Ningrat Mahottama</p>
+              <span class="member-badge">12</span>
+            </div>
+            <p class="member-role">INTERVIEWER / PEWAWANCARA</p>
+          </div>
+        </div>
+
+        <!-- Member 3 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="member-card">
+            <img src="radit.jpeg" alt="Radit" />
+            <div class="member-info">
+              <p class="member-name">I Kadek Raditya Yoga Wisudana</p>
+              <span class="member-badge">14</span>
+            </div>
+            <p class="member-role">PEMBUAT WEBSITE</p>
+          </div>
+        </div>
+
+        <!-- Member 4 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="member-card">
+            <img src="mahendra.jpeg" alt="Mahendra" />
+            <div class="member-info">
+              <p class="member-name">I Wayan Mahendra Jaya Pratama</p>
+              <span class="member-badge">18</span>
+            </div>
+            <p class="member-role">HOSTING WEBSITE</p>
+          </div>
+        </div>
+
+        <!-- Member 5 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="member-card">
+            <img src="satya.jpeg" alt="Satya" />
+            <div class="member-info">
+              <p class="member-name">I Wayan Satya Wedanta</p>
+              <span class="member-badge">19</span>
+            </div>
+            <p class="member-role">INTERVIEWER</p>
+          </div>
+        </div>
+
+        <!-- Member 6 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="member-card">
+            <img src="zuyyin.jpeg" alt="Zuyyin Kesha" />
+            <div class="member-info">
+              <p class="member-name">Zuyyin Kesha Prayogie</p>
+              <span class="member-badge">36</span>
+            </div>
+            <p class="member-role">PENYUSUN MATERI</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
